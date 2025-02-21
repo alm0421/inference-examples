@@ -16,7 +16,7 @@ Currently, the Cerebras API provides access to two models: Meta’s Llama 3.1 8B
   - **Context Length**: 8192
   - **Training Tokens**: 15 trillion
 
-- **Llama-3.1-70B**
+- **Llama-3.3-70B**
   - **Parameters**: 70 billion
   - **Knowledge Cutoff**: December 2023
   - **Context Length**: 8192
