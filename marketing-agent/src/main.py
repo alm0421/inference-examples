@@ -81,7 +81,7 @@ def parse_arguments():
     parser.add_argument(
         "-m",
         "--reasoning-model",
-        default="llama3.1-70b",
+        default="llama-3.3-70b",
         help="Provider-specific model name.",
     )
 
