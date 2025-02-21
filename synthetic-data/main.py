@@ -53,7 +53,7 @@ def generate_synthetic_data(num_rows, schema):
     
     try:
         response = cerebras_client.chat.completions.create(
-            model="llama3.1-70b",
+            model="llama-3.3-70b",
             messages=[
                 {"role": "system", "content": "You are a helpful assistant that generates synthetic data in valid JSON format without any additional formatting characters."},
                 {"role": "user", "content": prompt}
