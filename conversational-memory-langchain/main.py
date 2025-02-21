@@ -26,7 +26,7 @@ def main():
         st.markdown("### :red[Enter your Cerebras API Key below]")
         api_key = st.text_input("Cerebras API Key:", type="password")
 
-    models = ["llama3.1-8b", "llama3.1-70b"]
+    models = ["llama3.1-8b", "llama-3.3-70b"]
     system_prompt = 'You are a friendly conversational chatbot'
     conversational_memory_length = 5 # number of previous messages the chatbot will remember during the conversation
 
