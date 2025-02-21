@@ -54,7 +54,7 @@ if "selected_model" not in st.session_state:
 # Define model details
 models = {
     "llama3.1-8b": {"name": "Llama3.1-8b", "tokens": 8192, "developer": "Meta"}, 
-    "llama3.1-70b": {"name": "Llama3.1-70b", "tokens": 8192, "developer": "Meta"}
+    "llama-3.3-70b": {"name": "Llama-3.3-70b", "tokens": 8192, "developer": "Meta"}
 }
 
 # Layout for model selection and max_tokens slider
