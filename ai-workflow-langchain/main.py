@@ -46,7 +46,7 @@ st.info("ex: What is the latest update on the US Presidential Election?")
 if st.button("Generate output"):
     if user_input:
         # Initialize llm
-        llm = ChatCerebras(model="llama3.1-70b", api_key=api_key)
+        llm = ChatCerebras(model="llama-3.3-70b", api_key=api_key)
 
         # Load tools
         wikipedia = WikipediaQueryRun(api_wrapper=WikipediaAPIWrapper())
